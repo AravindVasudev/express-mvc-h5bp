@@ -35,17 +35,18 @@ Boilerplate for Express using Express and html5 boilerplate.
   * Layout -
     * The `views/layout` takes a meta object with `title`, `description`, `keyword` and `file` as properties
     * `file` property is the name of the CSS and JS file to be included (Assumes that the name of the Template, CSS and JS Files are the same)
-  
+
 ##Gulp Tasks
-  | Task      |  Description                                                                                                       |
-  |:---------:|--------------------------------------------------------------------------------------------------------------------|
-  | `images`  | minifies all the images in `public/img`                                                                            |
-  | `js`      | transpiles all js files in `resources/js` from es6 to es5, uglifies and places it in `public/js`                   |
-  | `css`     | transpiles scss files in `resources/scss` to css, autoprefixes them, minifies them and places them in `public/css` |
-  | `html`    | minifies html files in `resources/html` and places them in `public/`                                               |
-  | `build`   | runs `html`, `js`, `css` and `images`                                                                              |
-  | `watch`   | watches `html`, `css` and `js` files                                                                               |
-  | `default` | runs build and watch                                                                                               |
-  
+
+| Task      | Description                                                                                                        |
+|:---------:|--------------------------------------------------------------------------------------------------------------------|
+| `images`  | minifies all the images in `public/img`                                                                            |
+| `js`      | transpiles all js files in `resources/js` from es6 to es5, uglifies and places it in `public/js`                   |
+| `css`     | transpiles scss files in `resources/scss` to css, autoprefixes them, minifies them and places them in `public/css` |
+| `html`    | minifies html files in `resources/html` and places them in `public/`                                               |
+| `build`   | runs `html`, `js`, `css` and `images`                                                                              |
+| `watch`   | watches `html`, `css` and `js` files                                                                               |
+| `default` | runs build and watch                                                                                               |
+
 ##License
 The code is available under the [MIT license](LICENSE).
