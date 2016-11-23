@@ -1,4 +1,5 @@
 # express-mvc-h5bp
+[![Dependency Status](https://www.versioneye.com/user/projects/5830ba58182815004288bb59/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/5830ba58182815004288bb59)
 
 Boilerplate for Express using Express and html5 boilerplate.
 
